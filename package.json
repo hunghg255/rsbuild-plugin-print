@@ -1,0 +1,66 @@
+{
+  "name": "rsbuild-plugin-print",
+  "version": "0.0.1",
+  "description": "📦 📦 rsbuild plugin print",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch src",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "play": "npm -C playground run dev",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp && npm publish",
+    "start": "esno src/index.ts",
+    "test": "vitest"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/types.js",
+      "require": "./dist/types.cjs"
+    },
+    "./*": "./*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "rsbuild",
+    "plugin",
+    "print"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@rsbuild/core": "^0.0.17",
+    "@types/node": "^20.8.8",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.52.0",
+    "eslint-config-relaxed-ts": "^2.0.34",
+    "esno": "^0.17.0",
+    "prettier": "^3.0.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@rsbuild/shared": "^0.0.17",
+    "boxen": "^7.1.1",
+    "hqr": "^0.0.1",
+    "kolorist": "^1.8.0"
+  }
+}

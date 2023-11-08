@@ -1,0 +1,23 @@
+{
+  "name": "rsbuild-react-ts",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.0.17",
+    "@rsbuild/plugin-react": "^0.0.17",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "rsbuild-plugin-print": "^0.0.1",
+    "typescript": "^5.2.2"
+  }
+}
