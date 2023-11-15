@@ -85,20 +85,5 @@ export const pluginPrint = ({
       }
       console.log();
     });
-    // api.modifyBundlerChain(async (chain, { CHAIN_ID, isProd }) => {
-    //   console.log('chain id is ', chain);
-    //   console.log('chain id is ', CHAIN_ID);
-    // });
-    // api.onBeforeCreateCompiler(({ bundlerConfigs }) => {
-    //   console.dir(bundlerConfigs, { depth: 10 });
-    // });
-    // api.onAfterCreateCompiler(({ compiler }) => {
-    //   console.log('the compiler is ', compiler);
-    // });
-    // api.modifyRspackConfig((config) => {
-    //   console.dir(config.module.rules, { depth: 10 });
-
-    //   // config.devtool = false;
-    // });
   },
 });
