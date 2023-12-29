@@ -1,6 +1,6 @@
 {
   "name": "rsbuild-plugin-print",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "📦 📦 rsbuild plugin print",
   "scripts": {
     "build": "tsup",
