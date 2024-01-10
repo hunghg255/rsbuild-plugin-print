@@ -1,6 +1,19 @@
-# rsbuild-plugin-print
+<p align="center">
+<a href="https://www.npmjs.com/package/rsbuild-plugin-print" target="_blank" rel="noopener noreferrer">
+<img src="https://api.iconify.design/bi:plugin.svg?color=%23bbeea0" alt="logo" width='100'/></a>
+</p>
 
-[![NPM version](https://img.shields.io/npm/v/rsbuild-plugin-print?color=a1b858&label=)](https://www.npmjs.com/package/rsbuild-plugin-print)
+<p align="center">
+  A plugin print for vitejs
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/rsbuild-plugin-print" target="_blank" rel="noopener noreferrer"><img src="https://badge.fury.io/js/rsbuild-plugin-print.svg" alt="NPM Version" /></a>
+  <a href="https://www.npmjs.com/package/rsbuild-plugin-print" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/dt/rsbuild-plugin-print.svg?logo=npm" alt="NPM Downloads" /></a>
+  <a href="https://bundlephobia.com/result?p=rsbuild-plugin-print" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/bundlephobia/minzip/rsbuild-plugin-print" alt="Minizip" /></a>
+  <a href="https://github.com/hunghg255/rsbuild-plugin-print/graphs/contributors" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg" alt="Contributors" /></a>
+  <a href="https://github.com/hunghg255/rsbuild-plugin-print/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://badgen.net/github/license/hunghg255/rsbuild-plugin-print" alt="License" /></a>
+</p>
 
 ## Install
 
