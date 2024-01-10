@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  A plugin print for vitejs
+  A plugin print for <a href="https://rsbuild.dev/" target="_blank" rel="noopener noreferrer">Rsbuild</a>
 </p>
 
 <p align="center">
